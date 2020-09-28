@@ -13,10 +13,11 @@
 */
 /* 
 Colours:
-Brown: #ff8a00 ff8a00
-Dark grey: #554a45 554a45
-Light blue: #ccf6f4 ccf6f4 
-Blue: #00a198 00a198
+Orange:  ff8a00
+Dark grey:  554a45
+Blue:  00a198
+Light blue:  ccf6f4 
+
 
 Shadow:
 0px 4px 22px rgba(0,0,0,0.5)
@@ -69,7 +70,8 @@ a{
 }
 /* Buttons */
 body .elementor-widget-button .elementor-button,
-.btn-brown-hover.elementor-widget-button:hover .elementor-button{
+.btn-orange,.btn.sn-btn:hover,
+.btn-orange-hover.elementor-widget-button:hover .elementor-button{
     background-color: #ff8a00;
     border: 2px solid #ff8a00;
     text-transform: uppercase;
@@ -88,10 +90,26 @@ body .elementor-widget-button:hover .elementor-button,
     border-color: #554a45;
     color:#fff;
 }
+.btn-blue.elementor-widget-button .elementor-button,
+.btn,.btn.sn-btn,
+.btn-blue-hover.elementor-widget-button:hover .elementor-button {
+    background-color: #00a198;
+    border-color: #00a198;
+    color: #fff;
+}
+.btn-whtbrd.elementor-widget-button .elementor-button,
+.btn-whtbrd-hover.elementor-widget-button:hover .elementor-button {
+    background-color: transparent;
+    border-color: #fff;
+    color: #fff;
+}
 /* Typography */
 h1{
     font-size:42px;
     color: #ff8a00;
+}
+h3{
+    color: #00a198;
 }
 /*Menu */
 @media only screen and (min-width: 769px) {
@@ -110,7 +128,7 @@ h1{
 }
 /* News */
 .news-heading-title{
-    color: #ff8a00;
+    color: #00a198;
     text-align: center;
     margin: 0 auto;
 }
@@ -209,4 +227,30 @@ input[type="submit"]:hover{
     float: left;
     font-size: 17px;
     border: none;
+}
+/* Footer */
+#sn-footer img{
+    max-width: 300px;
+}
+/* News */
+.sn-date,.sn-newslist h4 a, .sn-news-block h2 {
+    color: #00a198;
+}
+/* SAEON Theme */
+#sn-footer {
+    background: #00a198;
+    padding-top: 40px;
+}
+#saeon-title strong {
+    color: #00a198;
+}
+.sn-footer-copy {
+    background: #fff;
+    color: #00a198;
+    margin-top:40px;
+}
+#sn-footer .sn-footer-copy a {
+    color: #554a45;
+    text-decoration: none;
+    font-weight: 800;
 }
