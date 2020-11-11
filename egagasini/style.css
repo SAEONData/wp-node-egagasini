@@ -108,7 +108,7 @@ h1{
     font-size:42px;
     color: #ff8a00;
 }
-h3{
+h3,body .elementor-widget-heading .elementor-heading-title{
     color: #00a198;
 }
 /*Menu */
