@@ -45,6 +45,12 @@ a{
     transition: all 0.3s ease-in;
 }
 /* Home */
+.home .saeon-header + main {
+    padding-top: 0px;
+}
+.home .sn-noscroll #sn-cssmenu {
+    top: -128px;
+}
 @media only screen and (min-width: 769px) {
     #home-meu{
         position: fixed;
